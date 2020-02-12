@@ -12,6 +12,9 @@ const max_sub_array_of_size_k = function(k, arr) {
         }
     }
     return result;
-  };
+};
+
+// TC: O(n)
+// SC: O(1)
 
 console.log(max_sub_array_of_size_k(2, [2, 3, 4, 1, 5]));

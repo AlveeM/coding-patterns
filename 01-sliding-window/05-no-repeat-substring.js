@@ -15,5 +15,8 @@ const non_repeat_substring = str => {
     return maxLength;
 }
 
+// TC: O(n)
+// SC: O(k) or O(1) since the expected input is a fixed set of characters (alphabets)
+
 console.log(`Length of the longest substring: ${non_repeat_substring('aabccbb')}`);
 console.log(`Length of the longest substring: ${non_repeat_substring('defhddee')}`);

@@ -23,5 +23,8 @@ const fruits_into_baskets = fruits => {
     return maxLength;
 }
 
+// TC: O(n)
+// SC: O(1)
+
 console.log(`Maximum number of fruits: ${fruits_into_baskets(['A', 'B', 'C', 'A', 'C'])}`);
 console.log(`Maximum number of fruits: ${fruits_into_baskets(['A', 'B', 'C', 'B', 'B', 'C'])}`);
