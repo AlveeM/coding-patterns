@@ -20,6 +20,8 @@ const has_cycle = head => {
     return false;
 }
 
+// TC: O(n)
+// SC: O(1)
 
 head = new Node(1)
 head.next = new Node(2)
